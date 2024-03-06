@@ -4,14 +4,15 @@
     {
         static void Main(string[] args)
         {
+            
             int reais = 1000, n, triplo, dobro, soma;
             float prcntg, inv, inv1, inv2, inv3, inv4, salario, ptg = 25, ptg1, s1;
 
-            /*
+            
              
             //Exercício1
             int m, cm, mm;
-            
+            Console.WriteLine("EX.1\n");
             Console.WriteLine("Valor em metros: ");
             m=int.Parse(Console.ReadLine());
             cm = m * 100;
@@ -24,7 +25,7 @@
 
             //Exercício2
             float f, c;
-           
+            Console.WriteLine("EX.2\n");
             Console.WriteLine("Valor em Fahrenheit: ");
             f=float.Parse(Console.ReadLine());
             c = (f - 32) * (5 / 9);
@@ -39,7 +40,7 @@
 
             //Exetcício3
             float peso, altura,a1, imc;
-
+            Console.WriteLine("EX.3\n");
             Console.WriteLine("Diga seu peso: ");
             peso=float.Parse(Console.ReadLine());
             Console.WriteLine("Diga sua altura: ");
@@ -53,7 +54,7 @@
 
             //Exercício4
             float n1, n2, n3, m1, m2;
-
+            Console.WriteLine("EX.4\n");
             Console.WriteLine("Digite um número qualquer: ");
             n1=float.Parse(Console.ReadLine());
             Console.WriteLine("Digite outro número: ");
@@ -68,7 +69,7 @@
 
             //Exercício5
             float s, t, v;
-
+            Console.WriteLine("EX.5\n");
             Console.WriteLine("<<Fórmula de Velocidade Média>>\n v = Δs/Δt");
             Console.WriteLine("\nDigite a distância(variação de espaço): ");
             s=float.Parse(Console.ReadLine());
@@ -77,29 +78,32 @@
             v = s / t;
             Console.WriteLine("Velocidade média do objeto = {0}", v);
 
-            
+
 
             //Exercício6
+            Console.WriteLine("EX.6\n");
             Console.WriteLine("\nDigite o salário: ");
             salario=float.Parse(Console.ReadLine());
             ptg1 = ptg / 100 * salario;
             s1 = salario + ptg1;
             Console.WriteLine("\nNovo salário com aumento de 25% = {0}", s1);
            
-            */
+            
 
             //Exercício7
-            float r, d, c;
+            float r, d, c1;
+            Console.WriteLine("EX.7\n");
             Console.WriteLine("Digite o valor em real: ");
             r=float.Parse(Console.ReadLine());
             Console.WriteLine("Digite a cotação do dólar: ");
             d=float.Parse(Console.ReadLine());
-            c = r * d;
-            Console.WriteLine("Conversão em dólar = {0}", c);
+            c1 = r * d;
+            Console.WriteLine("Conversão em dólar = {0}", c1);
 
-
+            
 
             //Exercício8
+            Console.WriteLine("EX.8\n");
             Console.WriteLine("\nDigite um número: ");
             n= int.Parse(Console.ReadLine());
             triplo = n * 3 + 1;
@@ -108,13 +112,20 @@
             Console.WriteLine("Antecessor do dobro de {0}: {1}",n, dobro);
             soma = triplo + dobro;
             Console.WriteLine("Soma final: {0}", soma);
+           
 
 
             //Exercício9
+            int nn;
+            Console.WriteLine("EX.9\n");
+            Console.WriteLine("Digite um número inteiro de 4 dígitos: ");
+            nn = int.Parse(Console.ReadLine());
 
+          
 
-
+            
             //Exercício10
+            Console.WriteLine("EX.10\n");
             Console.WriteLine("\nValor inicial: {0}\n", reais);
             Console.WriteLine("Primeiro dia, queda percentual: ");
             prcntg=float.Parse(Console.ReadLine());
@@ -141,6 +152,20 @@
 
 
             //Exercício11
+            Console.WriteLine("EX.11\n");
+            float nm, cb, q;
+            Console.WriteLine("Digite um número: ");
+            nm=float.Parse(Console.ReadLine());
+            q = nm * nm;
+            Console.WriteLine("Número ao quadrado: {0}", q);
+            cb = nm * nm * nm;
+            Console.WriteLine("\nNúmero ao cubo: {0} ",cb);
+
+            
+
+
+
+
 
 
         }
